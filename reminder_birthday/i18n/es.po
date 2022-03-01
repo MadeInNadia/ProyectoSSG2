@@ -1,0 +1,262 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* reminder_birthday
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-10 18:12+0000\n"
+"PO-Revision-Date: 2022-01-10 19:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: reminder_birthday
+#: model:mail.template,body_html:reminder_birthday.employee_reminder_birthday_template
+msgid ""
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; padding-bottom: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\">\n"
+"                    <tr>\n"
+"                        <td align=\"center\">\n"
+"                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"                                <tbody>\n"
+"                                    <!-- HEADER -->\n"
+"                                    <tr>\n"
+"                                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                                                <tr>\n"
+"                                                    <td valign=\"middle\" align=\"right\">\n"
+"                                                       <img src=\"/logo.png?company=${object.company_id.id}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${object.company_id.name}\"/>\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                                <tr>\n"
+"                                                    <td colspan=\"2\" style=\"text-align:center;\">\n"
+"                                                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                            </table>\n"
+"                                        </td>\n"
+"                                    </tr>\n"
+"                                    <!-- CONTENT -->\n"
+"                                    <tr>\n"
+"                                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                                                <tr>\n"
+"                                                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                                                        <div>\n"
+"                                                            <p>Dear ${object.name},</p>\n"
+"                                                            <p>Happy Birthday!!!!</p>\n"
+"                                                            <p>Hope you have a great year ahead. Stay Healthy, Stay Happy &amp; Stay Safe.</p>\n"
+"                                                            <br/>\n"
+"                                                            <p>Thanks,</p>\n"
+"                                                            <p>${object.company_id.name}</p>\n"
+"                                                            <br/><br/>\n"
+"                                                        </div>\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                                <tr>\n"
+"                                                    <td style=\"text-align:center;\">\n"
+"                                                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                            </table>\n"
+"                                        </td>\n"
+"                                    </tr>\n"
+"                                    <!-- FOOTER -->\n"
+"                                    <tr>\n"
+"                                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                                                <tr>\n"
+"                                                    <td valign=\"middle\" align=\"left\">\n"
+"                                                        ${object.company_id.name}\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                                <tr>\n"
+"                                                    <td valign=\"middle\" align=\"left\" style=\"opacity: 0.7;\">\n"
+"                                                        ${object.company_id.phone}\n"
+"                                                        % if object.company_id.email\n"
+"                                                            <a href=\"'mailto:%s' % ${object.company_id.email}\" style=\"text-decoration:none; color: #454748;\">${object.company_id.email}</a>\n"
+"                                                        % endif\n"
+"                                                        % if object.company_id.website\n"
+"                                                            <a href=\"'%s' % ${object.company_id.website}\" style=\"text-decoration:none; color: #454748;\">\n"
+"                                                                ${object.company_id.website}\n"
+"                                                            </a>\n"
+"                                                        % endif\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                            </table>\n"
+"                                        </td>\n"
+"                                    </tr>\n"
+"                                </tbody>\n"
+"                            </table>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </table>\n"
+"            "
+msgstr ""
+"<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; padding-bottom: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\">\n"
+"                    <tr>\n"
+"                        <td align=\"center\">\n"
+"                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"padding: 16px; background-color: white; color: #454748; border-collapse:separate;\">\n"
+"                                <tbody>\n"
+"                                    <!-- HEADER -->\n"
+"                                    <tr>\n"
+"                                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                                                <tr>\n"
+"                                                    <td valign=\"middle\" align=\"right\">\n"
+"                                                       <img src=\"/logo.png?company=${object.company_id.id}\" style=\"padding: 0px; margin: 0px; height: auto; width: 80px;\" alt=\"${object.company_id.name}\"/>\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                                <tr>\n"
+"                                                    <td colspan=\"2\" style=\"text-align:center;\">\n"
+"                                                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                            </table>\n"
+"                                        </td>\n"
+"                                    </tr>\n"
+"                                    <!-- CONTENT -->\n"
+"                                    <tr>\n"
+"                                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                                                <tr>\n"
+"                                                    <td valign=\"top\" style=\"font-size: 13px;\">\n"
+"                                                        <div>\n"
+"                                                            <p>Estimado ${object.name},</p>\n"
+"                                                            <p>Feliz Cumpleaños!!!!</p>\n"
+"                                                            <p>Espero que tengas un gran año por delante. Mantente saludable, mantente feliz &amp; Mantenerse a salvo.</p>\n"
+"                                                            <br/>\n"
+"                                                            <p>Gracias,</p>\n"
+"                                                            <p>${object.company_id.name}</p>\n"
+"                                                            <br/><br/>\n"
+"                                                        </div>\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                                <tr>\n"
+"                                                    <td style=\"text-align:center;\">\n"
+"                                                        <hr width=\"100%\" style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin: 16px 0px 16px 0px;\"/>\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                            </table>\n"
+"                                        </td>\n"
+"                                    </tr>\n"
+"                                    <!-- FOOTER -->\n"
+"                                    <tr>\n"
+"                                        <td align=\"center\" style=\"min-width: 590px;\">\n"
+"                                            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; font-size: 11px; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
+"                                                <tr>\n"
+"                                                    <td valign=\"middle\" align=\"left\">\n"
+"                                                        ${object.company_id.name}\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                                <tr>\n"
+"                                                    <td valign=\"middle\" align=\"left\" style=\"opacity: 0.7;\">\n"
+"                                                        ${object.company_id.phone}\n"
+"                                                        % if object.company_id.email\n"
+"                                                            <a href=\"'mailto:%s' % ${object.company_id.email}\" style=\"text-decoration:none; color: #454748;\">${object.company_id.email}</a>\n"
+"                                                        % endif\n"
+"                                                        % if object.company_id.website\n"
+"                                                            <a href=\"'%s' % ${object.company_id.website}\" style=\"text-decoration:none; color: #454748;\">\n"
+"                                                                ${object.company_id.website}\n"
+"                                                            </a>\n"
+"                                                        % endif\n"
+"                                                    </td>\n"
+"                                                </tr>\n"
+"                                            </table>\n"
+"                                        </td>\n"
+"                                    </tr>\n"
+"                                </tbody>\n"
+"                            </table>\n"
+"                        </td>\n"
+"                    </tr>\n"
+"                </table>\n"
+"            "
+
+#. module: reminder_birthday
+#: model:ir.actions.server,name:reminder_birthday.ir_cron_reminder_birthday_ir_actions_server
+#: model:ir.cron,cron_name:reminder_birthday.ir_cron_reminder_birthday
+#: model:ir.cron,name:reminder_birthday.ir_cron_reminder_birthday
+msgid "Birthday Reminder Notification"
+msgstr "Notificación de recordatorio de cumpleaños"
+
+#. module: reminder_birthday
+#: model:mail.template,subject:reminder_birthday.employee_reminder_birthday_template
+msgid "Birthday Wishes from ${object.company_id.name | safe}"
+msgstr "Deseos de cumpleaños de ${object.company_id.name | safe}"
+
+#. module: reminder_birthday
+#: model:ir.model,name:reminder_birthday.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: reminder_birthday
+#: model:ir.model,name:reminder_birthday.model_res_config_settings
+msgid "Config Settings"
+msgstr "Opciones de configuración"
+
+#. module: reminder_birthday
+#: model:ir.model,name:reminder_birthday.model_mail_channel
+msgid "Discussion Channel"
+msgstr "Canal de conversaciones"
+
+#. module: reminder_birthday
+#: model:ir.model.fields,field_description:reminder_birthday.field_hr_employee__display_name
+#: model:ir.model.fields,field_description:reminder_birthday.field_mail_channel__display_name
+#: model:ir.model.fields,field_description:reminder_birthday.field_res_company__display_name
+#: model:ir.model.fields,field_description:reminder_birthday.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: reminder_birthday
+#: model:ir.model,name:reminder_birthday.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: reminder_birthday
+#: model:ir.model.fields,help:reminder_birthday.field_mail_channel__member_count
+msgid "Excluding guests from count."
+msgstr "Excluir invitados del conteo."
+
+#. module: reminder_birthday
+#: model:ir.model.fields,field_description:reminder_birthday.field_hr_employee__id
+#: model:ir.model.fields,field_description:reminder_birthday.field_mail_channel__id
+#: model:ir.model.fields,field_description:reminder_birthday.field_res_company__id
+#: model:ir.model.fields,field_description:reminder_birthday.field_res_config_settings__id
+msgid "ID"
+msgstr ""
+
+#. module: reminder_birthday
+#: model:ir.model.fields,field_description:reminder_birthday.field_hr_employee____last_update
+#: model:ir.model.fields,field_description:reminder_birthday.field_mail_channel____last_update
+#: model:ir.model.fields,field_description:reminder_birthday.field_res_company____last_update
+#: model:ir.model.fields,field_description:reminder_birthday.field_res_config_settings____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: reminder_birthday
+#: model:ir.model.fields,field_description:reminder_birthday.field_mail_channel__member_count
+msgid "Member Count"
+msgstr "Cantidad de miembros"
+
+#. module: reminder_birthday
+#: model:ir.model.fields,field_description:reminder_birthday.field_res_company__send_employee_reminder_birthday
+#: model:ir.model.fields,field_description:reminder_birthday.field_res_config_settings__send_employee_reminder_birthday
+msgid "Reminder Birthday notification"
+msgstr "Notificación de recordatorio de cumpleaños"
+
+#. module: reminder_birthday
+#: model_terms:ir.ui.view,arch_db:reminder_birthday.hr_res_config_settings_view_form
+msgid "Send Birthday Notification"
+msgstr "Enviar notificación de cumpleaños"
+
+#. module: reminder_birthday
+#: code:addons/reminder_birthday/models/hr_employee.py:0
+#, python-format
+msgid "Today is %s's birthday, congratulations!"
+msgstr "Hoy es el cumpleaños de  %s, felicita!"

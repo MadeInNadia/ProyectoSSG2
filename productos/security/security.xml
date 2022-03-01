@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+ <data>
+ <!-- GRUPO GESTOR-->
+ <record id="grupo_gestor" model="res.groups">
+ <field name="name">Productos/Gestor productos</field>
+ <field name="comment">Perfil gestor de acceso a los productos</field>
+ </record>
+ <!-- GRUPO OPERARIO-->
+ <record id="grupo_operario" model="res.groups">
+ <field name="name">Productos/Operario productos</field>
+ <field name="comment">Perfil operario de acceso a los productos</field>
+ </record>
+ </data>
+ </odoo>
