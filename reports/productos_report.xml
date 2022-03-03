@@ -1,0 +1,9 @@
+<record model="ir.actions.report" id="productos.productos_productos_report">
+ <field name="name">Reporte Productos</field>
+ <field name="model">productos.productos</field>
+ <field name="report_type">qweb-html</field>
+ <field name="report_name">productos.productos_report_template</field>
+ <field name="report_file">productos.productos_report_template</field>
+ <field name="binding_model_id" ref="productos.model_productos_productos"/>
+ <field name="binding_type">report</field>
+ </record>
