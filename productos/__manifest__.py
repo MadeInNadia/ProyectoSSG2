@@ -27,11 +27,6 @@
         'views/views.xml',
         'views/templates.xml',
         'security/security.xml',
-        'reports/productos_report_view.xml',
-        'reports/productos_reports.xml',
-    ],
-    'qweb': [
-    'static/src/xml/your_xml.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
