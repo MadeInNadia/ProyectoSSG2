@@ -1,0 +1,78 @@
+.o_main_navbar {
+    color: rgb(0, 0, 0);
+    background-color: rgb(174, 11, 177);
+
+
+    > a, > button {
+        float: left;
+        height: $o-navbar-height;
+        border: none;
+        padding: 0 $o-horizontal-padding - 4px 0 $o-horizontal-padding;
+        line-height: $o-navbar-height;
+        background-color: transparent;
+        text-align: center;
+        color: inherit;
+
+        font-size: 18px;
+        user-select: none;
+
+        &:hover, &:focus {
+            background-color:rgb(254, 193, 255);
+            color: inherit;
+        }
+        &:focus, &:active, &:focus:active {
+            outline: none;
+        }
+    }
+
+    > .o_menu_brand {
+        color: rgb(0, 0, 0);
+    }
+
+    > ul {
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        > li {
+            position: relative;
+            display: block;
+            float: left;
+
+            > a {
+                display: block;
+
+                &:focus, &:active, &:focus:active {
+                    background-color:rgb(254, 193, 255);
+                    color: inherit;
+                }
+                &, &:hover, &:focus {
+                    text-decoration: none;
+                }
+            }
+
+            > a, > label {
+                height: $o-navbar-height;
+                padding: 0 10px;
+                color: rgb(0, 0, 0);
+                line-height: $o-navbar-height;
+
+                &:hover {
+                    background-color: rgb(254, 193, 255);
+                }
+            }    
+        }
+    }
+
+    .dropdown-menu.show {
+        background-color: rgb(254, 193, 255);
+    }
+    > .dropdown-item {
+        background-color: rgb(255, 255, 255);
+        color: inherit;
+    }
+
+    
+}

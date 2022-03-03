@@ -1,0 +1,39 @@
+
+.o_column_sortable:not(.o_handle_cell) {
+    position: relative;
+    user-select: none;  // Prevent unwanted selection while sorting
+    background-color: rgb(254, 193, 255);
+
+    &::after {
+        font-family: FontAwesome;
+        content: "\f0d7";
+        opacity: 0;
+    }
+    &:not(:empty)::after {
+        margin-left: 6px;
+    }
+    &.o-sort-up {
+        cursor: n-resize;
+        &::after {
+            content: "\f0d7";
+        }
+    }
+    &.o-sort-down {
+        cursor: s-resize;
+        &::after {
+            content: "\f0d8";
+        }
+    }
+    &:hover::after {
+        opacity: 0.3;
+    }
+    &.o-sort-up, &.o-sort-down {
+        color: $headings-color;
+        &::after {
+            opacity: 1;
+        }
+    }
+}
+.o_image_cell{
+    background-color: rgb(254, 193, 255);
+}
